@@ -1,0 +1,146 @@
+[
+   {
+        "id": 1,
+        "titulo": "Aplicacion de Mensajeria",
+        "descripcion": "Una simple aplicacion de mensajeria para conversar con tus amigos mediante el uso de conexcion a internet",
+        "funciones": [
+            "Los mensajes son cifrados",
+            "Enviar archivos como: Videos, Imagenes, Audios, PDF,WORD,EXCEL",
+           "Crear estados y publicarlos",
+            "Crear grupos de chat",
+           "Realizar llamadas y video llamada"
+        ],
+        "imagenes":[
+            "https://i.postimg.cc/GmMkKZKY/1.jpg",
+            "https://i.postimg.cc/K8YT10bY/2.jpg",
+            "https://i.postimg.cc/c4xgzFrc/3.jpg",
+            "https://i.postimg.cc/fR3L4pZY/4.jpg",
+            "https://i.postimg.cc/DyRhGZkb/5.jpg",
+            "https://i.postimg.cc/KvMVdDwR/6.jpg",
+            "https://i.postimg.cc/8kJNzWxV/7.jpg"
+        ],
+        "librerias":[
+            "Firebase: Como Base de Datos",
+            "Sinch-android-rtc: Libreria para realizar llamadas y video llamadas",
+            "Retrofit2: Libreria para realizar las peticiones Http ",
+            "Hdodenhof:circleimageview: Libreria para hacer circulo la imagen",
+            "Theartofdev - ImageCropper: Libreria para recortar las fotografias",
+            "Piccasso: Libreria para mostar las imagenes",
+            "Shts:StoriesProgressView: Libreria para visualizar las stories",
+            "Bumptech.glide: Libreria para mostrar las imagenes",
+            "PhotoView: Libreria para realizar zoom a las imagenes",
+            "Bhargavms:DotLoader: Libreria para mostrar un progres en version puntos al escribir",
+            "TrimmerVideo: Libreria para recortar los videos",
+            "Photoeditor: Libreria para editar las imagenes",
+            "Iceteck.silicompressorr: Libreria para comprimir las imagenes",
+            "Zelory:compressor: Libreria para comprimir las imagenes",
+            "Giphy.sdk: Sdk para poder enviar GIF",
+            "Devlomi.record-view:record-view: Libreria para grabar audios",
+            "Xabaras:recyclerview-swipedecorator: Libreria para decorar los items",
+            "Timehop.stickyheadersrecyclerview: Libreria para añadir cabezeras a los items",
+            "Exoplayer: Libreria para reproducir los videos"
+
+
+        ],
+        "repositorio":"https://github.com/damon-st/mensajeria/tree/master"
+    },{
+        "id": 2,
+        "titulo": "Tienda",
+        "descripcion":"Una simple Aplicacion para publicar productos para venderlos.",
+        "imagenes":[
+            "https://i.postimg.cc/bJDXxpmd/photo-2021-08-02-17-06-31.jpg",
+            "https://i.postimg.cc/bJK7LW5g/photo-2021-08-02-17-06-32.jpg",
+            "https://i.postimg.cc/przgSkbH/photo-2021-08-02-17-06-34.jpg",
+            "https://i.postimg.cc/9X95zX4n/photo-2021-08-02-17-06-35.jpg",
+            "https://i.postimg.cc/02GTdt0G/photo-2021-08-02-17-06-36.jpg",
+            "https://i.postimg.cc/NjgWN1d3/photo-2021-08-02-17-06-35-2.jpg",
+            "https://i.postimg.cc/13JbbfTf/photo-2021-08-02-17-06-37.jpg",
+            "https://i.postimg.cc/Ls5GSmKv/photo-2021-08-02-17-06-38.jpg",
+            "https://i.postimg.cc/PJs71ZLF/photo-2021-08-02-17-06-39.jpg",
+            "https://i.postimg.cc/sf7qsnqF/photo-2021-08-02-17-06-40.jpg",
+            "https://i.postimg.cc/m24qDYWP/photo-2021-08-02-17-06-42.jpg",
+            "https://i.postimg.cc/Gmh5Pb2r/photo-2021-08-02-17-06-43.jpg",
+            "https://i.postimg.cc/nLXS5TBP/photo-2021-08-02-17-06-44.jpg"
+        ],
+        "funciones":[
+            "Publicar productos",
+            "Buscar productos",
+            "Crear conversacion con el vendedor",
+            "Comentar la publicacion",
+            "Resivir notificaciones de tus respuestas",
+            "Añadir productos a tus favoritos"
+        ],
+        "librerias":[
+            "Firebase: Como Base de Datos",
+            "Piccasso: Libreria para mostar las imagenes",
+            "CircleImageView: Libreria para dar forma de cirulo a las fotografias",
+            "theartofdev - ImageCropper: Libreria para recortar las fotografias",
+            "PhotoView: Libreria para realizar zoom a las imagenes",
+            "Zelory: Compresor de Imagenes",
+            "Retrofit2: Libreria para realizar las peticiones Http ",
+            "Lottie: Libreria para cargar animaciones"
+        ],
+        "repositorio": "https://github.com/damon-st/ecommerce"
+    },{
+        "id":3,
+        "titulo":"ComprimirVideos",
+        "descripcion":"Una simple aplicacion para comprimir videos y imagenes y poder extraer audios",
+        "funciones":[
+            "Comprimir Videos",
+            "Comprimir Imagenes",
+            "Extraer el audio de un video"
+        ],
+        "imagenes":[
+            "https://i.postimg.cc/QCqkyWtt/photo-2021-08-02-17-56-46.jpg",
+            "https://i.postimg.cc/ryGJm7Jk/photo-2021-08-02-17-56-47.jpg",
+            "https://i.postimg.cc/W1z65zPN/photo-2021-08-02-17-56-48.jpg",
+            "https://i.postimg.cc/fb07hPL1/photo-2021-08-02-17-56-49.jpg",
+            "https://i.postimg.cc/LXKt4Vg5/photo-2021-08-02-17-56-50.jpg",
+            "https://i.postimg.cc/G2Fk4svQ/photo-2021-08-02-17-56-51.jpg",
+            "https://i.postimg.cc/brLkTcCS/photo-2021-08-02-17-58-29.jpg"
+        ],
+        "librerias":[
+            "Theartofdev - ImageCropper: Libreria para recortar las fotografias",
+            "Zelory:compressor: Libreria para comprimir las imagenes",
+            "Bumptech.glide: Libreria para mostrar las imagenes",
+            "PhotoView: Libreria para realizar zoom a las imagenes",
+            "tencent:mmkv greenrobot:eventbus jessyan:autosize : Librerias para obtener el audio del video",
+            "Compressvideo: Libreria para comprimir el video"
+        ],
+        "repositorio":"https://github.com/damon-st/videocompresormalo"
+    },
+    {
+        "id":4,
+        "titulo":"Inforamcion Peliculas",
+        "descripcion":"Una simple aplicacion para mostrate las ultimas peliculas y series y su informacion. Gracias a la inmesa inforacion de la api de The Movie Database",
+        "imagenes":[
+            "https://i.postimg.cc/y8hgXzD1/photo-2021-08-02-18-33-37.jpg",
+            "https://i.postimg.cc/tg2swtd8/photo-2021-08-02-18-33-38.jpg",
+            "https://i.postimg.cc/0Q4b2kBf/photo-2021-08-02-18-33-39.jpg",
+            "https://i.postimg.cc/fy0k344h/photo-2021-08-02-18-33-40.jpg",
+            "https://i.postimg.cc/dQzj5wVr/photo-2021-08-02-18-33-41.jpg"
+        ],
+        "funciones":[
+            "Buscar peliculas y su informacion",
+            "Buscar series y su inforamcion",
+            "Buscar Actores y su informacion",
+            "Ver el Top en series del momento",
+            "Ver las temporadas de cada serie"
+            
+        ],
+        "librerias":[
+            "Arcadefire:nice-spinner: Libreria para crear un bonito spinner",
+            "Retrofit2: Libreria para realizar las peticiones Http ",
+            "Paperdb: Libreria para guardar el ultima busqueda ",
+            "Florent37:diagonallayout: Libreria para un estilo diagonal en las vistas",
+            "Flaviofaria:kenburnsview: Libreria para animar las imagenes",
+            "Piccasso: Libreria para mostar las imagenes",
+            "CircleImageView: Libreria para dar forma de cirulo a las fotografias",
+            "Codewaves.youtubethumbnailview: Libreria para mostrar los videos de las peliculas en youtube"
+            
+        ],
+        "repositorio":"https://github.com/damon-st/informacionpeliculas"
+    }
+        
+]
+    

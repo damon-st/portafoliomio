@@ -1,0 +1,47 @@
+<div class="container">
+
+    <h1 class="text-center">{{informacion.titulo}}</h1>
+    <mat-tab-group mat-align-tabs="center">
+        <mat-tab label="Imagenes" >
+            <div class="images-proyecto">
+                <div  *ngFor="let img of informacion.imagenes">
+                    <img class="img-proyecto-item" [src]="img" alt="{{informacion.titulo}}">
+                </div>
+            </div>
+        </mat-tab>
+        <mat-tab label="Descripcion">
+            <h4 class="text-center descripcion-detalles">
+                {{informacion.descripcion}}
+            </h4>
+            <p class="parrafo-funcion">Funciones de la Aplicacion: </p>
+    
+            <ul class="tilesWrap">
+                <li *ngFor="let funcion of informacion.funciones; index as index" >
+                    <h2></h2>
+                    <h3>{{funcion}}</h3>
+                
+                </li>
+            
+            </ul>
+
+            <div class="repositorio" >
+                <a class="repositorio-item" href="{{informacion.repositorio}}" target="_blank" ><img src="assets/img/ic-github.png" alt="repositorio">Ver Repositorio</a>
+            </div>
+
+        </mat-tab>
+        <mat-tab label="Librerias">
+
+            <p class="parrafo-funcion">Librerias de Terceros Utilizadas:</p>
+            <ul class="tilesWrap">
+                <li *ngFor="let libreria of informacion.librerias; index as index" >
+                    <h2>{{index}}</h2>
+                    <h3>{{libreria}}</h3>
+                
+                </li>
+            
+            </ul>
+
+        </mat-tab>
+      </mat-tab-group>
+
+</div>
