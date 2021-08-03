@@ -96,10 +96,10 @@ a{
 }
 
 
-.active{
+.nav-link.active{
     color: var(--color-morado);
     font-weight: 500;
-    
+    border-bottom: 2px solid var(--color-morado);
 }
 
 
@@ -156,6 +156,7 @@ a{
 
 .proyectos .proyectos-item{
     text-align: center;
+    
 }
 
 .proyectos .proyectos-item .btn-proyectos{
@@ -172,7 +173,11 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
+    
 }
+
+
+
 
 .text-center{
     text-align: center;
@@ -267,7 +272,7 @@ a{
 	opacity: 0.6;
 }
 
-.tilesWrap li:before {
+.tilesWrap li:before{
 	content: '';
 	position: absolute;
 	top: -2px;
@@ -380,6 +385,59 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
 }
 
 
+.proyectos-item {
+    overflow: hidden;
+}
+
+.proyectos-item .progress-proyectos-2{
+    transform: rotate(90deg);
+    position: relative;
+    left:-190px;
+    top: -260px;
+}
+
+.proyectos-item .progress-proyectos-4{
+    transform: rotate(90deg);
+    position: relative;
+    left:200px;
+    top: -260px;
+}
+
+
+/* Efecto para rotar */
+.flip{
+    position: relative;
+    transition: all 1s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+    }
+.flip:hover{
+
+    transform: perspective(600px) rotateY(-180deg) translateX(100%);
+}
+
+.flip .flip-1,
+.flip .flip-2{
+position: absolute;
+backface-visibility: hidden;
+}
+
+.flip .flip-2{
+transform: rotateY(-180deg);
+}
+
+.btns-inicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.btns-inicio :first-child{
+    margin-left: 10px;
+}
+
+
 @media only screen and (max-width: 768px){
     .nav-menu{
         position: fixed;
@@ -420,6 +478,36 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
     }
 
     .container .images-proyecto{
+        grid-template-columns: 1fr;
+    }
+
+    .contactos{
+        grid-template-columns: 1fr;
+    }
+    .contactos-item{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 15px;
+    }
+
+    .contactos-item .contactos-icon-color{
+        margin: 0 auto;
+    }
+
+    .contactos-item p{
+        text-align: center;
+    }
+
+    .proyectos-item .progress-proyectos-2{
+        left: -50%;
+    }
+
+    .proyectos-item .progress-proyectos-4{
+        left: 50%;
+    }
+
+    .btns-inicio{
         grid-template-columns: 1fr;
     }
 }

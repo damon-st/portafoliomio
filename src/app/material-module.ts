@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
 
@@ -9,7 +10,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     exports:[
         MatButtonModule,
         MatIconModule,
-        MatTabsModule
+        MatTabsModule,
+        MatProgressBarModule
     ]
 })
 export class MaterialModule{}

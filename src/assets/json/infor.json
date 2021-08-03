@@ -2,7 +2,7 @@
    {
         "id": 1,
         "titulo": "Aplicacion de Mensajeria",
-        "descripcion": "Una simple aplicacion de mensajeria para conversar con tus amigos mediante el uso de conexcion a internet",
+        "descripcion": "Una simple aplicacion de mensajeria para conversar con tus amigos mediante el uso de conección a internet",
         "funciones": [
             "Los mensajes son cifrados",
             "Enviar archivos como: Videos, Imagenes, Audios, PDF,WORD,EXCEL",
