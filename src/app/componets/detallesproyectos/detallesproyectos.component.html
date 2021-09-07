@@ -5,7 +5,7 @@
         <mat-tab label="Imagenes" >
             <div class="images-proyecto">
                 <div  *ngFor="let img of informacion.imagenes">
-                    <img class="img-proyecto-item" [src]="img" alt="{{informacion.titulo}}">
+                    <img loading="lazy" class="img-proyecto-item" [src]="img" alt="{{informacion.titulo}}">
                 </div>
             </div>
         </mat-tab>
